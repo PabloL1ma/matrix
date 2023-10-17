@@ -1,0 +1,29 @@
+.botao{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+    background-color: #1d2834;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 90em;
+    color: #000000;
+    transition: all 0.7 ease-in-out 0s;
+    box-shadow:0 0 60px rgba(0, 255, 144, .24) ;
+    box-shadow: inset;
+}
+
+.btn:hover{
+    background: transparent;
+    color: #0fccbb;
+    transform :scale(1.5)rotate(360deg);
+    box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+    cursor: grab;
+     border: 2px solid #00ffcb;
+}
